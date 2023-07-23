@@ -2,7 +2,7 @@
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+## challenge during desing
 1. seperating the image form product-info"div" having class = "card". 
 2. Help taken from other resources for designing button and Mobile view.
 
