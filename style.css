@@ -1,0 +1,101 @@
+
+@import url("https://fonts.google.com/specimen/Montserrat");
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Fraunces", serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-width: 666px;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.product-info{
+    width: 50%;
+    padding: 2rem;
+}
+
+.product-info .heading{
+    color: hsl(228, 12%, 48%);
+    padding-right: 2rem;
+    margin-bottom: 1.75rem;
+}
+
+.product-info .description{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+    margin-bottom: 1.75rem;
+}
+
+.head{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+    margin-bottom: 1.75rem;
+}
+
+.price-detail{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.75rem;
+}
+
+.price-detail .new-price{
+    color: hsl(158, 36%, 37%);
+}
+
+.price-detail .old-price{
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.product-info .btn{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Montserrat";
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-info .btn:hover{
+    background-color: hsl(212, 21%, 14%);
+}
