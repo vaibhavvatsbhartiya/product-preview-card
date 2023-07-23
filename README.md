@@ -8,7 +8,7 @@
 
 ## Deploying my project on
 
-[GitHub Pages](https://pages.github.com/)
+[GitHub Pages](https://vaibhavvatsbhartiya.github.io/product-preview-card/)
 
 ## Got feedback for us?
 I love receiving feedback! I'm always looking to improve our myself. So if you have anything you'd like to mention then feel free to comment.
