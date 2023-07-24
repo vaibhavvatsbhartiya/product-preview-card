@@ -57,7 +57,7 @@ body{
 
 .head{
     font-family: "Montserrat";
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     line-height: 22px;
